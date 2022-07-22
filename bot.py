@@ -55,6 +55,8 @@ def main():
         url_path=TOKEN,
         webhook_url='https://murmuring-garden-23215.herokuapp.com/' + TOKEN
     )
+    # Copied missing line from documentation.
+    updater.bot.setWebhook('https://murmuring-garden-23215.herokuapp.com/' + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
