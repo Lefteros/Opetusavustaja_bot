@@ -1,4 +1,9 @@
 Hei,
-Tämä on OpetusavustajaBot. Tervetuloa.
 
-Terveisin Opetusavustajat
+Tervetuloa käyttämään OpetusavustajaBottia!
+Botti on toistaiseksi vielä keskeneräinen, eikä se siten osaa tehdä vielä juuri mitään. /start -komento saa tämän saman viestin tulostumaan uudelleen ja /helpo -komentoon botti toteaa, ettei osaa vielä auttaa ketään.
+Muihin viesteihin Botti vastaa matkimalla sinua.
+
+
+Ystävällisin terveisin
+Opetusavustajat

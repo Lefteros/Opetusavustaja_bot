@@ -12,6 +12,8 @@ TOKEN = '5410426109:AAEf5TXFKKG9Evy3p658gBVj0PLc7MeJV7M'
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
+
+# Start replies with a greeting message.
 def start(update, context):
     """Send a message when the command /start is issued."""
     with open('data/tervehdys.txt') as file:
@@ -20,7 +22,7 @@ def start(update, context):
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Help!')
+    update.message.reply_text('En osaa auttaa sinua vielä missään :c')
 
 def echo(update, context):
     """Echo the user message."""
