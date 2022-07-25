@@ -16,7 +16,7 @@ def start(update, context):
     """Send a message when the command /start is issued."""
     with open('/data/tervehdys.txt') as file:
         lines = file.read()
-    update.message.reply_text(lines)
+    update.message.reply_text(eval(lines))
 
 def help(update, context):
     """Send a message when the command /help is issued."""
