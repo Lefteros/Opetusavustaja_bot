@@ -17,7 +17,7 @@ def start(update, context):
     with open('/data/tervehdys.txt') as file:
         lines = file.read()
         string = "Moikka, tämä toimii"
-    update.message.reply_text(eval(string))
+    update.message.reply_text(string)
 
 def help(update, context):
     """Send a message when the command /help is issued."""
