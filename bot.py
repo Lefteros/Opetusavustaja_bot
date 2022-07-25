@@ -16,8 +16,7 @@ def start(update, context):
     """Send a message when the command /start is issued."""
     with open('/data/tervehdys.txt') as file:
         lines = file.read()
-        string = "Moikka, tämä toimii"
-    update.message.reply_text(string)
+    update.message.reply_text('ääliö älä lyö')
 
 def help(update, context):
     """Send a message when the command /help is issued."""
