@@ -15,8 +15,8 @@ TOKEN = '5410426109:AAEf5TXFKKG9Evy3p658gBVj0PLc7MeJV7M'
 def start(update, context):
     """Send a message when the command /start is issued."""
     with open('data/tervehdys.txt') as file:
-        lines = file.readlines()
-    update.message.reply_text(lines)
+        content = file.read()
+    update.message.reply_text(content)
 
 def help(update, context):
     """Send a message when the command /help is issued."""
