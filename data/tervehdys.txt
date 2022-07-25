@@ -1,1 +1,4 @@
-Hei
+Hei,
+Tämä on OpetusavustajaBot. Tervetuloa.
+
+Terveisin Opetusavustajat
